@@ -117,7 +117,7 @@ body{
     background-color: var(--bl-bg);
     color: var(--al-sr-cr);
 }
-.nado .title-label,
+.nado .title-label
 {
     color: var(--alt-wth-clr);
 }
