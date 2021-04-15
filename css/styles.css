@@ -21,6 +21,17 @@ body{
     letter-spacing: 0.02em;
     color: var(--pr-sr-cr);
 }
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.section{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
 .btn{
     color: inherit;
     font-weight: 600;
@@ -45,7 +56,15 @@ body{
     color: var(--accent-or-cr);
 }
 .list{
+    margin: 0;
+    padding: 0;
     list-style: none;
+}
+h1,
+h2,
+h3,
+p{
+    margin: 0;
 }
 .visually-hidden {
     position: absolute !important;
@@ -60,6 +79,16 @@ body{
 .address{
     font-style: inherit;
 }
+.list-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-nav .item:not(:last-child){
+    margin-right: 40px;
+}
+.section-label{
+    background-color: var(--bl-bg);
+}
 .title{
     font-family: var(--ttl-font);
     letter-spacing: 0.05em;
@@ -69,10 +98,10 @@ body{
 }
 .page-title{
     color: var(--alt-wth-clr);
-    
+    text-align: center;
     font-size: 72px;
     line-height: 1.18;
-    background-color: var(--bl-bg);
+    
 }
 .section-title{
     font-size: 42px;
